@@ -1,0 +1,36 @@
+.table{
+  border: 1px solid black;
+  margin: 2rem auto;
+  border-radius: 0.3rem;
+  
+}
+.table > thead > tr > th{
+  border: 1px solid black;
+  padding: 0.5rem 0.8rem;
+}
+.table > tbody > tr > td{
+  border: 1px solid black;
+  padding: 0.5rem 0.8rem;
+}
+.table > tbody > tr:nth-child(2n+1){
+  background-color: rgb(239 239 239);
+}
+.btns{
+  display: flex;
+    justify-content: space-between;
+    width: 15%;
+    margin: auto;
+}
+.btns > button{
+  padding: 0.5rem 1.8rem;
+  border-radius: 0.2rem;
+  border: none;
+  
+  color: white;
+}
+.btns > button:nth-child(1){
+  background: red;
+}
+.btns > button:nth-child(2){
+  background: rgb(7, 209, 7);
+}
